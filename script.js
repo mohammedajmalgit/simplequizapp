@@ -70,7 +70,7 @@ button.addEventListener('click', ()=>{
         score++
     currentQuestion++
     if(currentQuestion < quizData.length){
-        // deSelect()
+        deSelect()
         loadQuiz()
     }else{
         alert("Score is "+score+"/5")
